@@ -1,16 +1,16 @@
 terraform {
   required_providers {
     azurerm = {
-      version = ">=2.40.0"
+      version = "=2.40.0"
     } 
     github = {
-      version      = ">=4.1.0"
+      version      = "=4.1.0"
     }
     kubernetes = {
-      version = ">=1.13.3"
+      version = "=1.13.3"
     }
     tls = {
-      version = ">=3.0.0"
+      version = "=3.0.0"
     }
   }
 }
